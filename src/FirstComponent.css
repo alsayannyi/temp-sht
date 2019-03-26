@@ -1,0 +1,25 @@
+.FirstComponent {
+    display:inline-block;
+    width: 40%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #555;
+    font-size: calc(10px + 2vmin);
+}
+
+aside  span {
+    color: #61dafb;
+}
+
+.pretty-face {
+    width: 11em;
+    height: 11em;
+    border-radius: 50%;
+    align-self: center;
+}
